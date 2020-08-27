@@ -42,11 +42,6 @@ namespace CodeWars
     [TestFixture]
     public class ArithmeticProgressionTests
     {
-        [SetUp]
-        public void Setup()
-        {
-        }
-
         private static IEnumerable<TestCaseData> testCases
         {
             get

@@ -42,11 +42,6 @@ namespace CodeWars
     [TestFixture]
     public class RGBToHexConversionTests
     {
-        [SetUp]
-        public void Setup()
-        {
-        }
-
         [Test]
         public void FixedTests()
         {

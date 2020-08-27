@@ -29,11 +29,6 @@ namespace CodeWars
     [TestFixture]
     public class DetectPangramTests
     {
-        [SetUp]
-        public void Setup()
-        {
-        }
-
         [Test]
         public void SampleTests()
         {

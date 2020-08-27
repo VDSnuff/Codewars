@@ -36,11 +36,6 @@ namespace CodeWars
     [TestFixture]
     public class ValidateCreditCardNumberTests
     {
-        [SetUp]
-        public void Setup()
-        {
-        }
-
         [Test]
         public void FixedTests()
         {
@@ -53,30 +48,6 @@ namespace CodeWars
             Assert.AreEqual(true, KataValidateCreditCardNumber.Validate("8383 7332 3570 8514"));
             Assert.AreEqual(true, KataValidateCreditCardNumber.Validate("481 135"));
             Assert.AreEqual(true, KataValidateCreditCardNumber.Validate("355 032 5363"));
-
-
-  //          Assert.AreEqual(true, KataValidateCreditCardNumber.Validate(string.Join("", [3, 5, 8, 6, 1, 6]));
-  //Assert.AreEqual(true,   KataValidateCreditCardNumber.Validate([3, 5, 8, 6, 1, 6]
-  //Assert.AreEqual(true,   KataValidateCreditCardNumber.Validate([1, 0, 7, 1, 0, 5, 0, 0, 8, 8, 2, 1, 0, 7, 8]
-  //Assert.AreEqual(true,  KataValidateCreditCardNumber.Validate([1, 0, 7, 1, 0, 5, 0, 0, 8, 8, 2, 1, 0, 7, 8]
-  //Assert.AreEqual(true,   KataValidateCreditCardNumber.Validate([6, 8, 4, 6, 6, 8, 8, 5, 5, 8, 6, 4, 2, 8, 5]
-  //Assert.AreEqual(true,  KataValidateCreditCardNumber.Validate([6, 8, 4, 6, 6, 8, 8, 5, 5, 8, 6, 4, 2, 8, 5]
-  //Assert.AreEqual(true,   KataValidateCreditCardNumber.Validate([1, 8, 4, 5, 7, 0, 5, 2, 1, 7, 1, 8, 1, 8, 3]
-  //Assert.AreEqual(true,   KataValidateCreditCardNumber.Validate([1, 8, 4, 5, 7, 0, 5, 2, 1, 7, 1, 8, 1, 8, 3]
-  //Assert.AreEqual(true,   KataValidateCreditCardNumber.Validate([0, 2, 1, 2, 4, 1]
-  //Assert.AreEqual(true,  KataValidateCreditCardNumber.Validate([0, 2, 1, 2, 4, 1]
-  //Assert.AreEqual(true,   KataValidateCreditCardNumber.Validate([4, 6, 3, 5, 5, 8, 5, 2, 8]
-  //Assert.AreEqual(true,   KataValidateCreditCardNumber.Validate([4, 6, 3, 5, 5, 8, 5, 2, 8]
-  //Assert.AreEqual(true,  KataValidateCreditCardNumber.Validate([3, 4, 8, 7, 7, 4, 4, 0, 6, 6, 4, 8, 2, 7, 4]
-  //Assert.AreEqual(true,   KataValidateCreditCardNumber.Validate([3, 4, 8, 7, 7, 4, 4, 0, 6, 6, 4, 8, 2, 7, 4]
-  //Assert.AreEqual(true,  KataValidateCreditCardNumber.Validate([6, 7, 6, 7, 5, 0, 3, 3, 2, 5, 4]
-  //Assert.AreEqual(true,   KataValidateCreditCardNumber.Validate([6, 7, 6, 7, 5, 0, 3, 3, 2, 5, 4]
-  //Assert.AreEqual(true,   KataValidateCreditCardNumber.Validate([6, 2, 1, 3, 1, 2, 0, 3, 3]
-  //Assert.AreEqual(true,   KataValidateCreditCardNumber.Validate([6, 2, 1, 3, 1, 2, 0, 3, 3]
-  //Assert.AreEqual(true,  KataValidateCreditCardNumber.Validate([0, 1, 7, 0, 6]
-  //Assert.AreEqual(true,   KataValidateCreditCardNumber.Validate([0, 1, 7, 0, 6]
-  //Assert.AreEqual(true,   KataValidateCreditCardNumber.Validate([1, 8, 2, 4, 1, 0]
-  //Assert.AreEqual(true, KataValidateCreditCardNumber.Validate([1, 8, 2, 4, 1, 0]
        }
    }
 }
