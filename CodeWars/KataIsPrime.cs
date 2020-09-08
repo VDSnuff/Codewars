@@ -14,24 +14,13 @@ namespace CodeWars
 
         public static bool IsPrime(int n)
         {
+            //1.
             //return n != 0 && (from i in Enumerable.Range(2, n - 1).AsParallel()
             //        where Enumerable.Range(1, (int)Math.Sqrt(i)).All(j => j == 1 || i % j != 0)
             //        select i).ToList().Any(x => x == n);
 
-            //if (n <= 1)
-            //    return false;
-
-            //// Check from 2 to n-1 
-            //for (int i = 2; i < n; i++)
-            //    if (n % i == 0)
-            //        return false;
-
-            //return true;
-            //if (n <= 1) return false;
-            //if (n == 2 || n == 3) return true;
-            //if (n % 2 != 0 && n % 3 != 0) return true;
-            //else return false;
-
+           
+            //2.
             //if (n == 0 || n <= 1) return false;
             //else
             //{
@@ -46,6 +35,7 @@ namespace CodeWars
             //    return true;
             //}
 
+            //3.
             if (n <= 1) return false;
             if (n == 2) return true;
             if (n % 2 == 0) return false;
